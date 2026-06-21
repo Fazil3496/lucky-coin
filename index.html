@@ -1,0 +1,173 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Lucky Coin - Discover your daily fortune, challenges, streaks and motivation.">
+
+    <title>🍀 Lucky Coin</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    <div class="layout">
+
+    <div class="sidebar">
+        <h3>📜 History</h3>
+
+    <ul id="history-list"></ul>
+        <h3>🎯 Daily Challenge</h3>
+
+    <div id="challenge-box">
+        Drink 2L of water 💧
+    </div>
+
+
+
+        <div class="menu-item" id="theme-btn">
+            🌙 Theme
+        </div>
+
+        <div class="menu-item" id="faq-btn">
+            ❓ FAQs
+        </div>
+
+    </div>
+    <div class="container">
+
+        <div class="header">
+        <span class="side-icon">⭐</span>
+
+        <h1>Lucky Coin</h1>
+
+       <span class="side-icon" id="settings-btn">⚙️</span>
+    </div>
+
+        <p class="subtitle">
+            Flip the coin and discover your luck today!
+        </p>
+
+        <div class="coin">
+        <img src="images/coin.png" alt="Coin">
+    </div>
+        <button id="flip-btn">
+            Flip Coin
+        </button>
+    <p id="counter">
+        Total Flips: 0
+    </p>
+        <p id="streak">🔥 Daily Streak: 0 Days</p>
+        <p id="remaining-flips">🍀 Remaining Flips Today: 3</p>
+        <div class="result">
+            <h2>Ready to discover your fortune?</h2>
+        </div>
+        <button id="share-btn">
+        📤 Share Result
+    </button>
+    <div class="quote-box">
+        <h3>🌟 Daily Quote</h3>
+        <p id="quote">
+            Every day brings new possibilities.
+        </p>
+    </div>
+
+
+<div class="achievements-box">
+    <h3>🏆 Achievements</h3>
+    <ul id="achievements-list"></ul>
+</div>
+<div class="faq-modal" id="faq-modal">
+    <div class="faq-content">
+        <span id="close-faq">✖</span>
+        <h2>❓ FAQs</h2>
+
+        <p><b>What is Lucky Coin?</b><br>
+        Lucky Coin is a fun app that predicts your daily luck.</p>
+
+        <p><b>How many flips per day?</b><br>
+        You get 3 flips every day.</p>
+
+        <p><b>Does my streak save?</b><br>
+        Yes, your streak saves on your device.</p>
+    </div>
+</div>
+        <div class="wheel-box" id="wheel-btn">
+    🎡 Lucky Wheel
+</div>
+
+<div class="wheel-box" id="motivation-btn">
+    ❤️ Motivation Buddy
+</div>
+
+<div class="faq-modal" id="wheel-modal">
+    <div class="faq-content">
+        <span id="close-wheel">✖</span>
+
+        <h2>🎡 Lucky Wheel</h2>
+
+        <p id="wheel-result">
+            Press Spin to get a reward!
+        </p>
+
+        <button id="spin-wheel-btn">
+            Spin Wheel
+        </button>
+    </div>
+</div>
+        <div class="faq-modal" id="settings-modal">
+    <div class="faq-content">
+
+        <span id="close-settings">✖</span>
+
+        <h2>⚙️ Settings</h2>
+
+        <button id="reset-streak-btn">
+            🔥 Reset Streak
+        </button>
+
+        <br><br>
+
+        <button id="reset-data-btn">
+            🗑️ Reset All Data
+        </button>
+
+        <br><br>
+
+        <p>
+            Lucky Coin v1.0 🍀
+        </p>
+
+    </div>
+</div>
+        <div class="faq-modal" id="motivation-modal">
+    <div class="faq-content">
+
+        <span id="close-motivation">✖</span>
+
+        <h2>❤️ Motivation Buddy</h2>
+
+        <input
+            type="text"
+            id="feeling-input"
+            placeholder="How are you feeling today?"
+            style="width:100%;padding:10px;margin-bottom:10px;"
+        >
+
+        <button id="motivate-btn">
+            Get Motivation
+        </button>
+
+        <p id="motivation-result" style="margin-top:15px;"></p>
+
+    </div>
+</div>
+        <footer class="footer">
+    🍀 Lucky Coin v1.0 • Built by Fazil
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
